@@ -1,0 +1,115 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 30px; 
+    background-color: #f0f2f5;
+    color: #333;
+    font-size: 16px;
+    max-width: 767px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+}
+
+#tu{
+    color:purple;
+}
+
+h1{
+    margin-bottom: 100px;
+    color:black;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 15px auto;
+    width: 700px;
+}
+
+#cor-mor-container {
+    position: relative; 
+    text-align: center; 
+    margin-bottom: 50px; 
+}
+
+#detalle1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 50px;
+    width: 50px;
+}
+
+#detalle2 {
+    position: absolute; 
+    top: 40%; 
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    height: 200px;
+    width: 150px;
+}
+
+#text1 {
+    position: absolute; 
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 20px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#text2{
+    position: absolute; 
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 20px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#cor-azul-container {
+    position: relative; 
+    text-align: center;
+    margin-top: 50px; 
+}
+
+#midetalle1 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 100px;
+    width: 100px;
+}
+
+#mitext1 { 
+    position: absolute; 
+    top: 40%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 15px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#mitext2{
+    position: absolute; 
+    top: 30%; 
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 15px; 
+    white-space: nowrap;
+    z-index: 10;
+}
