@@ -55,6 +55,24 @@ img {
     width: 50px;
 }
 
+#detalle3 {
+    position: absolute; 
+    top: 70%; 
+    left: 55%;
+    transform: translate(-50%, -50%); 
+    height: 75px;
+    width: 50px;
+}
+
+#detalle4 {
+    position: absolute; 
+    top: 50%; 
+    left: 75%;
+    transform: translate(-50%, -50%); 
+    height: 75px;
+    width: 50px;
+}
+
 #text1 {
     position: absolute; 
     top: 43%;
@@ -70,6 +88,28 @@ img {
     position: absolute; 
     top: 55%;
     left: 25%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 20px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#text3{
+    position: absolute; 
+    top: 40%;
+    left: 75%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 20px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#text4{
+    position: absolute; 
+    top: 60%;
+    left: 55%;
     transform: translate(-50%, -50%); 
     color: black;
     font-size: 20px; 
@@ -106,6 +146,17 @@ img {
 #mitext2{
     position: absolute; 
     top: 30%; 
+    left: 25%;
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-size: 15px; 
+    white-space: nowrap;
+    z-index: 10;
+}
+
+#mitext3{
+    position: absolute; 
+    top: 60%; 
     left: 25%;
     transform: translate(-50%, -50%); 
     color: black;
